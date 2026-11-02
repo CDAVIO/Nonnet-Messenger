@@ -13,7 +13,9 @@
     <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="1280" height="440" rx="28" fill="url(#bg)"/>
+<clipPath id="card"><rect width="1280" height="440" rx="28"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="1280" height="440" fill="url(#bg)"/>
 <circle cx="153.6" cy="44.0" r="396.0" fill="url(#glowP)"/>
 <circle cx="1152.0" cy="418.0" r="396.0" fill="url(#glowB)"/>
 
@@ -48,4 +50,6 @@
 </g>
 <text x="564" y="360" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#8F86FF">iPhone · iPad · Mac · MacBook</text>
 
+<text x="1254" y="418" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="800" opacity=".9"><tspan fill="#FFFFFF">CDAV.</tspan><tspan fill="#FFD905">IO</tspan></text>
+</g>
 </svg>

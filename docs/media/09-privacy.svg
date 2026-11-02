@@ -13,7 +13,9 @@
     <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="880" height="360" rx="28" fill="url(#bg)"/>
+<clipPath id="card"><rect width="880" height="360" rx="28"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="880" height="360" fill="url(#bg)"/>
 <circle cx="105.6" cy="36.0" r="324.0" fill="url(#glowP)"/>
 <circle cx="792.0" cy="342.0" r="324.0" fill="url(#glowB)"/>
 <g transform="translate(440 110)" opacity=".9"><path d="M-70 20 Q-70 -20 -30 -20 Q-20 -55 20 -45 Q55 -60 65 -20 Q95 -15 90 20 Z" fill="#231A52" stroke="#3B2F78" stroke-width="3"/><path d="M-60 -50 L80 40" stroke="#FF5C7A" stroke-width="6" stroke-linecap="round"/></g><g transform="translate(440 250)" filter="url(#glow)"><rect x="-22" y="-10" width="44" height="34" rx="6" fill="url(#pb)"/><path d="M-13 -10 V-20 A13 13 0 0 1 13 -20 V-10" fill="none" stroke="url(#pb)" stroke-width="5"/><animateTransform attributeName="transform" type="scale" values="1;1.1;1" additive="sum" dur="1.6s" repeatCount="indefinite"/></g><g transform="translate(180 240) scale(0.55)">
@@ -43,4 +45,6 @@
 </g><text x="700" y="205" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#3DA5FF" opacity="0" filter="url(#glow)">✓✓
   <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.72;.8;1" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
 </text><text x="440.0" y="338" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9C4FF" letter-spacing=".5">device to device · encrypted · nothing stored online</text>
+<text x="854" y="338" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" opacity=".9"><tspan fill="#FFFFFF">CDAV.</tspan><tspan fill="#FFD905">IO</tspan></text>
+</g>
 </svg>

@@ -13,7 +13,9 @@
     <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="880" height="360" rx="28" fill="url(#bg)"/>
+<clipPath id="card"><rect width="880" height="360" rx="28"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="880" height="360" fill="url(#bg)"/>
 <circle cx="105.6" cy="36.0" r="324.0" fill="url(#glowP)"/>
 <circle cx="792.0" cy="342.0" r="324.0" fill="url(#glowB)"/>
 <circle cx="440" cy="170" r="110" fill="#1B1442" stroke="url(#pb)" stroke-width="3"/><ellipse cx="440" cy="170" rx="50" ry="110" fill="none" stroke="#3B2F78" stroke-width="2"/><path d="M330 170 H550 M345 115 H535 M345 225 H535" stroke="#3B2F78" stroke-width="2"/><g transform="translate(440 170)"><text x="0" y="12" text-anchor="middle" font-size="40" fill="#fff" font-family="sans-serif">€</text><path d="M-28 -24 L28 30" stroke="#FF5C7A" stroke-width="5" stroke-linecap="round"/><animateTransform attributeName="transform" type="rotate" values="0 0 0;8 0 0;0 0 0" additive="sum" dur="2s" repeatCount="indefinite"/></g><g transform="translate(180 200) scale(0.55)">
@@ -43,4 +45,6 @@
 </g><text x="700" y="165" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#3DA5FF" opacity="0" filter="url(#glow)">✓✓
   <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.72;.8;1" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
 </text><text x="440.0" y="338" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9C4FF" letter-spacing=".5">no SIM · no data plan · free</text>
+<text x="854" y="338" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" opacity=".9"><tspan fill="#FFFFFF">CDAV.</tspan><tspan fill="#FFD905">IO</tspan></text>
+</g>
 </svg>

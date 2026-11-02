@@ -21,13 +21,22 @@ DEFS = """
 </defs>"""
 
 
+def watermark(w, h):
+    """CDAV.IO in the bottom-right corner: CDAV. white, IO #FFD905."""
+    return f"""<text x="{w - 26}" y="{h - 22}" text-anchor="end" font-family="{FONT}" font-size="{max(15, h * .042):.0f}" font-weight="800" opacity=".9"><tspan fill="#FFFFFF">CDAV.</tspan><tspan fill="#FFD905">IO</tspan></text>"""
+
+
 def svg(w, h, label, body):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{label}">
 <title>{label}</title>{DEFS}
-<rect width="{w}" height="{h}" rx="28" fill="url(#bg)"/>
+<clipPath id="card"><rect width="{w}" height="{h}" rx="28"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="{w}" height="{h}" fill="url(#bg)"/>
 <circle cx="{w * .12}" cy="{h * .1}" r="{h * .9}" fill="url(#glowP)"/>
 <circle cx="{w * .9}" cy="{h * .95}" r="{h * .9}" fill="url(#glowB)"/>
 {body}
+{watermark(w, h)}
+</g>
 </svg>
 """
 

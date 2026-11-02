@@ -8,7 +8,7 @@
 
 ![iOS 17+](https://img.shields.io/badge/iOS-17%2B-8B5CFF?style=for-the-badge&logo=apple&logoColor=white)
 ![iPadOS](https://img.shields.io/badge/iPadOS-17%2B-7E8CFF?style=for-the-badge&logo=apple&logoColor=white)
-![macOS Apple silicon](https://img.shields.io/badge/macOS-Apple%20silicon-3DA5FF?style=for-the-badge&logo=apple&logoColor=white)
+![macOS Apple silicon](https://img.shields.io/badge/macOS-14%2B%20Apple%20silicon-3DA5FF?style=for-the-badge&logo=apple&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-SwiftUI-8B5CFF?style=for-the-badge&logo=swift&logoColor=white)
 ![Bluetooth only](https://img.shields.io/badge/Bluetooth-only-3DA5FF?style=for-the-badge&logo=bluetooth&logoColor=white)
 ![License MIT](https://img.shields.io/badge/License-MIT-7E8CFF?style=for-the-badge)
@@ -27,6 +27,26 @@
 | 👁 **View once (1X)** photos and videos delete after viewing | ✓✓ **Read receipts** sent, delivered, seen | ❤️ **Reactions** double-tap or long-press |
 | 🧭 **Compass radar** N · E · S · W with people nearby | 📏 **Live distance** Bluetooth, and centimeter-precise UWB on iPhone 11+ | 🔔 **Notifications** banner, sound and red badge |
 | 🔒 **End-to-end encryption** X25519 + ChaChaPoly | 🕶 **Anonymous by default** optional nickname | ✈️ **Airplane mode** Bluetooth only, Wi-Fi off |
+
+---
+
+## ⚖️ NonNet vs other apps
+
+| | **NonNet** | WhatsApp / Signal | iMessage | AirDrop | Bridgefy | Briar |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|
+| Works with **no internet** | ✅ | ❌ | ❌ | ✅ | ⚠️ internet needed once to sign up | ✅ |
+| **No phone number or account** | ✅ | ❌ phone number | ❌ Apple ID | ✅ | ❌ account | ✅ |
+| **Chat** | ✅ | ✅ | ✅ | ❌ files only | ✅ | ✅ |
+| **Photos offline** | ✅ | ❌ | ❌ | ✅ | ❌ text only | ✅ |
+| **Videos offline** | ✅ 360p | ❌ | ❌ | ✅ | ❌ | ❌ |
+| **View once (1X)** | ✅ | ✅ online only | ❌ | ❌ | ❌ | ❌ |
+| **Read receipts offline** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **Radar: direction & distance** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **iPhone & iPad** | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ Android only |
+| **Mac** | ✅ | ✅ | ✅ | ✅ | ❌ | ⚠️ desktop beta |
+| **End-to-end encrypted** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+> **Where others win:** NonNet talks only to devices in direct Bluetooth range (~30–60 m). It doesn't relay messages through other phones the way mesh apps (Bridgefy, Briar) do, and it doesn't run on Android. Comparison based on public information, November 2026.
 
 ---
 
@@ -134,7 +154,7 @@ NonNet isn't on the App Store yet. Until then:
 
 > With a free Apple ID, apps installed this way expire after 7 days. Re-install to renew.
 
-**Requirements:** iOS / iPadOS 17 or newer · Mac with Apple silicon · Bluetooth on.
+**Requirements:** iOS / iPadOS 17 or newer · macOS 14 Sonoma or newer on a Mac with Apple silicon · Bluetooth on.
 
 ## 🔐 Privacy
 

@@ -13,7 +13,9 @@
     <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
 </defs>
-<rect width="880" height="360" rx="28" fill="url(#bg)"/>
+<clipPath id="card"><rect width="880" height="360" rx="28"/></clipPath>
+<g clip-path="url(#card)">
+<rect width="880" height="360" fill="url(#bg)"/>
 <circle cx="105.6" cy="36.0" r="324.0" fill="url(#glowP)"/>
 <circle cx="792.0" cy="342.0" r="324.0" fill="url(#glowB)"/>
 <circle cx="760" cy="70" r="28" fill="#E8E4FF" opacity=".85"/><rect x="60" y="160" width="70" height="140" fill="#120D30" stroke="#2A2060"/><rect x="140" y="100" width="70" height="200" fill="#120D30" stroke="#2A2060"/><rect x="220" y="190" width="70" height="110" fill="#120D30" stroke="#2A2060"/><rect x="300" y="130" width="70" height="170" fill="#120D30" stroke="#2A2060"/><rect x="560" y="110" width="70" height="190" fill="#120D30" stroke="#2A2060"/><rect x="640" y="180" width="70" height="120" fill="#120D30" stroke="#2A2060"/><rect x="720" y="90" width="70" height="210" fill="#120D30" stroke="#2A2060"/><g transform="translate(340 250) scale(0.5)">
@@ -47,4 +49,6 @@
   <rect x="16" y="4" width="5" height="14" rx="1" fill="#5A5480"/><rect x="24" y="0" width="5" height="18" rx="1" fill="#5A5480"/>
   <path d="M-2 -2 L32 22" stroke="#FF5C7A" stroke-width="3" stroke-linecap="round"/>
 </g><text x="440.0" y="338" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9C4FF" letter-spacing=".5">network down · people nearby still reachable</text>
+<text x="854" y="338" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" opacity=".9"><tspan fill="#FFFFFF">CDAV.</tspan><tspan fill="#FFD905">IO</tspan></text>
+</g>
 </svg>
