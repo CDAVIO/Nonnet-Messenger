@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/media/hero.svg" alt="NonNet offline Bluetooth messenger for iPhone, iPad and Mac" width="100%"/>
+<img src="docs/media/hero.svg?v=2" alt="NonNet offline Bluetooth messenger for iPhone, iPad and Mac" width="100%"/>
 
 # NonNet — Offline Bluetooth Messenger for iPhone, iPad & Mac
 
@@ -53,52 +53,52 @@
 ## 🌍 10 places where NonNet keeps you talking
 
 ### 1. Car to car on the highway
-<img src="docs/media/01-highway.svg" alt="Two cars on the highway messaging over Bluetooth with NonNet" width="100%"/>
+<img src="docs/media/01-highway.svg?v=2" alt="Two cars on the highway messaging over Bluetooth with NonNet" width="100%"/>
 
 Driving together in a convoy? Send *"Exit 12?"* from one car to the other with no signal and no data plan. Phones in nearby cars connect over Bluetooth while you roll.
 
 ### 2. Two seats apart on a plane
-<img src="docs/media/02-airplane.svg" alt="Chatting in airplane mode between two seats on a plane" width="100%"/>
+<img src="docs/media/02-airplane.svg?v=2" alt="Chatting in airplane mode between two seats on a plane" width="100%"/>
 
 Airplane mode on, Bluetooth on. Message your friend ten rows away without paying for in-flight Wi-Fi.
 
 ### 3. Festivals and concerts
-<img src="docs/media/03-festival.svg" alt="Messaging at a festival when the mobile network is jammed" width="100%"/>
+<img src="docs/media/03-festival.svg?v=2" alt="Messaging at a festival when the mobile network is jammed" width="100%"/>
 
 Thousands of phones jam the mobile network. NonNet doesn't use it, so *"Front left!"* still arrives.
 
 ### 4. Hiking with zero signal
-<img src="docs/media/04-mountains.svg" alt="Hiking in the mountains and messaging with no cell signal" width="100%"/>
+<img src="docs/media/04-mountains.svg?v=2" alt="Hiking in the mountains and messaging with no cell signal" width="100%"/>
 
 No towers in the valley? Stay in touch with the group, and the compass radar shows which way your friends are.
 
 ### 5. Underground in the metro
-<img src="docs/media/05-metro.svg" alt="Messaging underground in the metro with no signal" width="100%"/>
+<img src="docs/media/05-metro.svg?v=2" alt="Messaging underground in the metro with no signal" width="100%"/>
 
 Between stations there's no coverage, but the phone two carriages down is still in Bluetooth range.
 
 ### 6. Blackouts and emergencies
-<img src="docs/media/06-blackout.svg" alt="Staying in touch during a blackout or emergency without mobile network" width="100%"/>
+<img src="docs/media/06-blackout.svg?v=2" alt="Staying in touch during a blackout or emergency without mobile network" width="100%"/>
 
 When the network is down or overloaded, people nearby are still reachable. *"You OK?"* doesn't need a tower.
 
 ### 7. Abroad with no roaming costs
-<img src="docs/media/07-roaming.svg" alt="Messaging abroad with no roaming or data costs" width="100%"/>
+<img src="docs/media/07-roaming.svg?v=2" alt="Messaging abroad with no roaming or data costs" width="100%"/>
 
 No local SIM and no roaming bill. Message your travel group for 0 €.
 
 ### 8. Same building: office, school, campus
-<img src="docs/media/08-building.svg" alt="Messaging between iPhone and Mac in the same building" width="100%"/>
+<img src="docs/media/08-building.svg?v=2" alt="Messaging between iPhone and Mac in the same building" width="100%"/>
 
 iPhone to MacBook on the same floor or in the next room, without connecting to the building's Wi-Fi.
 
 ### 9. Private by design
-<img src="docs/media/09-privacy.svg" alt="No servers, no account, no tracking, end-to-end encrypted" width="100%"/>
+<img src="docs/media/09-privacy.svg?v=2" alt="No servers, no account, no tracking, end-to-end encrypted" width="100%"/>
 
 No servers, no phone number, no email, no account. Messages go straight from device to device, encrypted, and are never uploaded anywhere.
 
 ### 10. At sea on a boat or ferry
-<img src="docs/media/10-sea.svg" alt="Messaging at sea on a boat or ferry with no signal" width="100%"/>
+<img src="docs/media/10-sea.svg?v=2" alt="Messaging at sea on a boat or ferry with no signal" width="100%"/>
 
 Far from shore with no coverage? Chat between decks and cabins.
 
@@ -204,5 +204,5 @@ Swift · SwiftUI · CoreBluetooth (L2CAP) · CryptoKit · NearbyInteraction (UWB
 <br/>
 <img src="docs/media/icon.png" alt="NonNet app icon" width="96"/>
 <br/><br/>
-<img src="docs/media/footer.svg" alt="© 2026 CDAV.IO" width="240"/>
+<img src="docs/media/footer.svg?v=2" alt="© 2026 CDAV.IO" width="240"/>
 </div>
