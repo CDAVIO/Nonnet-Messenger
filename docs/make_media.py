@@ -1,7 +1,7 @@
 """Generates the animated SVG illustrations used in README.md (python3 docs/make_media.py)."""
 from pathlib import Path
 
-OUT = Path(__file__).parent / "media"
+OUT = Path(__file__).parent / "anim"
 OUT.mkdir(exist_ok=True)
 FONT = "-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif"
 
