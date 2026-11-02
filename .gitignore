@@ -1,0 +1,12 @@
+# Build output
+build/
+build-mac/
+DerivedData/
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# macOS
+.DS_Store

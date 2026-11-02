@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="NonNet offline Bluetooth messenger">
+<title>NonNet offline Bluetooth messenger</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#150C3D"/><stop offset="1" stop-color="#05122E"/>
+  </linearGradient>
+  <linearGradient id="pb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8B5CFF"/><stop offset="1" stop-color="#3DA5FF"/>
+  </linearGradient>
+  <radialGradient id="glowP"><stop offset="0" stop-color="#8B5CFF" stop-opacity=".45"/><stop offset="1" stop-color="#8B5CFF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB"><stop offset="0" stop-color="#3DA5FF" stop-opacity=".35"/><stop offset="1" stop-color="#3DA5FF" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1280" height="440" rx="28" fill="url(#bg)"/>
+<circle cx="153.6" cy="44.0" r="396.0" fill="url(#glowP)"/>
+<circle cx="1152.0" cy="418.0" r="396.0" fill="url(#glowB)"/>
+
+<g>
+  <circle cx="300" cy="220" r="160" fill="#0B0824" stroke="url(#pb)" stroke-width="6" filter="url(#glow)"/>
+  <circle cx="300" cy="220" r="105.60000000000001" fill="none" stroke="#7E8CFF" stroke-opacity=".5" stroke-width="2"/>
+  <circle cx="300" cy="220" r="52.800000000000004" fill="none" stroke="#7E8CFF" stroke-opacity=".35" stroke-width="2"/>
+  <g><path d="M300 220 L300 60 A160 160 0 0 0 295.2 60.1 Z" fill="#3DA5FF" opacity="0.270"/><path d="M300 220 L300 60 A160 160 0 0 0 290.4 60.3 Z" fill="#3DA5FF" opacity="0.260"/><path d="M300 220 L300 60 A160 160 0 0 0 285.6 60.6 Z" fill="#3DA5FF" opacity="0.250"/><path d="M300 220 L300 60 A160 160 0 0 0 280.8 61.2 Z" fill="#3DA5FF" opacity="0.240"/><path d="M300 220 L300 60 A160 160 0 0 0 276.1 61.8 Z" fill="#3DA5FF" opacity="0.230"/><path d="M300 220 L300 60 A160 160 0 0 0 271.4 62.6 Z" fill="#3DA5FF" opacity="0.220"/><path d="M300 220 L300 60 A160 160 0 0 0 266.6 63.5 Z" fill="#3DA5FF" opacity="0.210"/><path d="M300 220 L300 60 A160 160 0 0 0 262.0 64.6 Z" fill="#3DA5FF" opacity="0.200"/><path d="M300 220 L300 60 A160 160 0 0 0 257.3 65.8 Z" fill="#3DA5FF" opacity="0.190"/><path d="M300 220 L300 60 A160 160 0 0 0 252.7 67.1 Z" fill="#3DA5FF" opacity="0.180"/><path d="M300 220 L300 60 A160 160 0 0 0 248.2 68.6 Z" fill="#3DA5FF" opacity="0.170"/><path d="M300 220 L300 60 A160 160 0 0 0 243.6 70.3 Z" fill="#3DA5FF" opacity="0.160"/><path d="M300 220 L300 60 A160 160 0 0 0 239.2 72.0 Z" fill="#3DA5FF" opacity="0.150"/><path d="M300 220 L300 60 A160 160 0 0 0 234.8 73.9 Z" fill="#3DA5FF" opacity="0.140"/><path d="M300 220 L300 60 A160 160 0 0 0 230.4 75.9 Z" fill="#3DA5FF" opacity="0.130"/><path d="M300 220 L300 60 A160 160 0 0 0 226.1 78.1 Z" fill="#3DA5FF" opacity="0.120"/><path d="M300 220 L300 60 A160 160 0 0 0 221.9 80.4 Z" fill="#3DA5FF" opacity="0.110"/><path d="M300 220 L300 60 A160 160 0 0 0 217.7 82.8 Z" fill="#3DA5FF" opacity="0.100"/><path d="M300 220 L300 60 A160 160 0 0 0 213.7 85.3 Z" fill="#3DA5FF" opacity="0.090"/><path d="M300 220 L300 60 A160 160 0 0 0 209.7 87.9 Z" fill="#3DA5FF" opacity="0.080"/><path d="M300 220 L300 60 A160 160 0 0 0 205.7 90.7 Z" fill="#3DA5FF" opacity="0.070"/><path d="M300 220 L300 60 A160 160 0 0 0 201.9 93.6 Z" fill="#3DA5FF" opacity="0.060"/><path d="M300 220 L300 60 A160 160 0 0 0 198.2 96.6 Z" fill="#3DA5FF" opacity="0.050"/><path d="M300 220 L300 60 A160 160 0 0 0 194.5 99.7 Z" fill="#3DA5FF" opacity="0.040"/><path d="M300 220 L300 60 A160 160 0 0 0 190.9 102.9 Z" fill="#3DA5FF" opacity="0.030"/><path d="M300 220 L300 60 A160 160 0 0 0 187.5 106.3 Z" fill="#3DA5FF" opacity="0.020"/><path d="M300 220 L300 60 A160 160 0 0 0 184.1 109.7 Z" fill="#3DA5FF" opacity="0.010"/><path d="M300 220 L300 60" stroke="#BFE3FF" stroke-width="4" filter="url(#glow)"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 300 220" to="360 300 220" dur="3s" repeatCount="indefinite"/></g>
+  <circle cx="300" cy="220" r="8" fill="none" stroke="#7E8CFF" stroke-width="2">
+  <animate attributeName="r" values="8;160" dur="2.4s" begin="0.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="2.4s" begin="0.0s" repeatCount="indefinite"/>
+</circle>
+<circle cx="300" cy="220" r="8" fill="none" stroke="#7E8CFF" stroke-width="2">
+  <animate attributeName="r" values="8;160" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="300" cy="220" r="8" fill="none" stroke="#7E8CFF" stroke-width="2">
+  <animate attributeName="r" values="8;160" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+</circle>
+  <circle cx="300" cy="220" r="12" fill="#fff" filter="url(#glow)"/>
+  <g filter="url(#glow)"><circle cx="385" cy="150" r="10" fill="#E8E4FF"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="240" cy="310" r="9" fill="#E8E4FF"><animate attributeName="opacity" values="1;.2;1" dur="3s" repeatCount="indefinite"/></circle></g>
+</g>
+<text x="560" y="190" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="96" font-weight="800" fill="#fff">NonNet</text>
+<text x="564" y="245" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#C9C4FF">Offline Bluetooth Messenger</text>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff">
+  <rect x="564" y="280" width="140" height="40" rx="20" fill="url(#pb)"/><text x="634" y="306" text-anchor="middle">No Wi-Fi</text>
+  <rect x="716" y="280" width="160" height="40" rx="20" fill="url(#pb)"/><text x="796" y="306" text-anchor="middle">No Internet</text>
+  <rect x="888" y="280" width="170" height="40" rx="20" fill="url(#pb)"/><text x="973" y="306" text-anchor="middle">No Account</text>
+</g>
+<text x="564" y="360" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#8F86FF">iPhone · iPad · Mac · MacBook</text>
+
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="880" height="360" role="img" aria-label="Same building: office, school or campus">
+<title>Same building: office, school or campus</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#150C3D"/><stop offset="1" stop-color="#05122E"/>
+  </linearGradient>
+  <linearGradient id="pb" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#8B5CFF"/><stop offset="1" stop-color="#3DA5FF"/>
+  </linearGradient>
+  <radialGradient id="glowP"><stop offset="0" stop-color="#8B5CFF" stop-opacity=".45"/><stop offset="1" stop-color="#8B5CFF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB"><stop offset="0" stop-color="#3DA5FF" stop-opacity=".35"/><stop offset="1" stop-color="#3DA5FF" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="880" height="360" rx="28" fill="url(#bg)"/>
+<circle cx="105.6" cy="36.0" r="324.0" fill="url(#glowP)"/>
+<circle cx="792.0" cy="342.0" r="324.0" fill="url(#glowB)"/>
+<rect x="300" y="60" width="280" height="54" fill="#140F36" stroke="#2A2060"/><rect x="300" y="120" width="280" height="54" fill="#140F36" stroke="#2A2060"/><rect x="300" y="180" width="280" height="54" fill="#140F36" stroke="#2A2060"/><rect x="300" y="240" width="280" height="54" fill="#140F36" stroke="#2A2060"/><g transform="translate(380 117) scale(0.45)">
+  <rect x="-17" y="-30" width="34" height="60" rx="8" fill="#1B1442" stroke="url(#pb)" stroke-width="2.5"/>
+  <rect x="-12" y="-23" width="24" height="44" rx="4" fill="url(#pb)" opacity=".85"/>
+  <rect x="-6" y="-27" width="12" height="2.5" rx="1.2" fill="#0B0820"/>
+</g><g transform="translate(510 237) scale(0.9)">
+  <rect x="-30" y="-24" width="60" height="38" rx="5" fill="#1B1442" stroke="url(#pb)" stroke-width="2.5"/>
+  <rect x="-25" y="-19" width="50" height="28" rx="2" fill="url(#pb)" opacity=".85"/>
+  <path d="M-38 16 H38 L33 22 H-33 Z" fill="#8F86FF"/>
+</g><circle cx="380" cy="117" r="8" fill="none" stroke="#7E8CFF" stroke-width="2">
+  <animate attributeName="r" values="8;70" dur="2.4s" begin="0.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="2.4s" begin="0.0s" repeatCount="indefinite"/>
+</circle>
+<circle cx="380" cy="117" r="8" fill="none" stroke="#7E8CFF" stroke-width="2">
+  <animate attributeName="r" values="8;70" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+</circle>
+<circle cx="380" cy="117" r="8" fill="none" stroke="#7E8CFF" stroke-width="2">
+  <animate attributeName="r" values="8;70" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".9;0" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
+</circle><g filter="url(#glow)" opacity="0">
+  <rect x="-40.0" y="-13" width="80" height="26" rx="13" fill="url(#pb)"/>
+  <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">Lunch? 🍕</text>
+  <animateMotion path="M380 117 L510 230" dur="3.2s" begin="0.0s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.75;1" calcMode="linear"/>
+  <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.8;1" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+</g><text x="560" y="205" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="900" fill="#3DA5FF" opacity="0" filter="url(#glow)">✓✓
+  <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;.72;.8;1" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
+</text><text x="440.0" y="338" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Rounded', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#C9C4FF" letter-spacing=".5">phone ↔ mac · same floor or next room</text>
+</svg>
